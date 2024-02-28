@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(232, 232, 196);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bs1 {
+  box-shadow: rgba(154, 154, 222, 0.25) 0px 13px 27px -5px, rgba(41, 40, 40, 0.3) 0px 8px 16px -8px;
+  ;
+}
+
+.img-e img{
+  
+  background-size: cover;
+}
+.img-e p{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #336699;
+  padding-top: 10px;
+}
+
+.header {
+  padding: 10px;
+  background-color: rgb(232, 232, 196);
+}
+
+.header h1{
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: 40px;
+  margin-left: 15px;
+}
+.header h3{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-top: 15px;
+  color: #336699;
+
+}
+
+.content {
+  background-color: gray;
+  min-height: 90vh;
+}
+
+.bgimg{
+  /*background-image: url('../src/images/desert-car2.jpg');*/
+  background: rgba(255, 255, 255, 0.7) url('../src/images/desert-car2.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  
+
+}
+
+
+.login-page {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position:relative;
+  background-color: #ffffff;
+
+}
+
+.login-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+
+.input-container{
+  display: flexbox;
+  padding: 10px;
+  margin-right: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+
+
+}
+
+.button-container button{
+  background-color: #336699;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+}
+
+.footer{
+  text-align: center;
+  background-color: #383838;
+  box-sizing: border-box;
+  padding: 10px;
+  max-height: 100%;
+}
+.footer-heading-bar{
+  color:white;
+  text-transform: uppercase;
+  font-family: "IBM Plex Sans";
+  gap: 2px;
+  display: flex;
+  justify-content: space-between;
+  margin:5px 24px;
+}
+
+.aboutus{
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sub-description{
+  margin: 24px;
+  color: white;
+  text-align:justify;
+}
+
+.filter-header{
+  align-items: flex-start;
+  background-color: #336699;
+}
+
+.radio-input{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 7px;
+}
+
+.filter-description{
+  margin: 20px;
+}
+.filter-description h5{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
