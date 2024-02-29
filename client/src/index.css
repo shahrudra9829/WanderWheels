@@ -159,5 +159,9 @@ h1 {
   margin: 20px;
 }
 .filter-description h5{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.safari{
+  height: 100px;
+  weight: 100px;
 }
