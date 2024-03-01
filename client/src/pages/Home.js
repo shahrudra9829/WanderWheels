@@ -100,7 +100,7 @@ function Home() {
             </select>
             <input type="date" className="form-control" value={selectedFromDate} onChange={handleFromDateChange} /> 
             <input type="date" className="form-control" value={selectedToDate} onChange={handleToDateChange}/> 
-            <button className="btn btn-primary" onClick={handleBookSlot}>Book Slot</button>
+            <button className="btn btn-primary" onClick={handleBookSlot}>Get Car</button>
           </div>
         </div>
 

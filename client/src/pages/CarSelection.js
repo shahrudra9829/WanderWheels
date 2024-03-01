@@ -1,10 +1,11 @@
 import React from 'react'
 import listedcar from '../images/car-data.jpg'
+import scorpio from '../images/scorpio.jpg'
 
 function CarSelection() {
   return (
     <div className='car-list'>
-      <div className='filter'>
+      <section className='filter'>
         <section className='filter-header'>
           <h4>Filter</h4>
         </section>
@@ -33,10 +34,26 @@ function CarSelection() {
           <label className='radio-input'> <input type='radio' value={'Automatic'} />Automatic </label>
 
         </section>
-      </div>
-      <div className='car-list-right'>
-        <img className='safari' src={listedcar}></img>
+      </section> 
+      <div className='car-data-display'>
+        <div className='car-list-right'>
+          <img className='img-size' src={listedcar} alt="safari"></img>
+          <h6>Tata Safari </h6>
+          <p><i>5 Seater-Automatic-Diesel</i></p>
+          <hr/>
+          <p>Rs.250/hr</p>
+          <button>Book car</button>
 
+        </div>
+        <br/>
+        <div className='car-list-right'>
+          <img className='img-size' src={scorpio} alt="scorpio"></img>
+          <h6>Mahindra Scorpio</h6>
+          <p><i>5 Seater-Manual-Petrol</i></p>
+          <hr/>
+          <p>Rs.300/hr</p>
+          <button>Book Car</button>
+        </div>
       </div>
     </div>
   )

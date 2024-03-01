@@ -161,7 +161,20 @@ h1 {
 .filter-description h5{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.safari{
-  height: 100px;
-  weight: 100px;
+.img-size{
+  height: 140px;
+  weight: 130px;
 }
+.car-list-right{
+  
+  max-width: 250px;
+  /* width: 0%; */
+  margin: auto; 
+  padding: 20px 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
