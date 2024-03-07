@@ -8,6 +8,7 @@ body {
   background-color: rgb(232, 232, 196);
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,7 +16,7 @@ code {
 
 .bs1 {
   box-shadow: rgba(154, 154, 222, 0.25) 0px 13px 27px -5px, rgba(41, 40, 40, 0.3) 0px 8px 16px -8px;
-  ;
+  
 }
 
 .img-e img{
@@ -145,9 +146,15 @@ h1 {
   text-align:justify;
 }
 
+.filter{
+  flex:1;
+  background-color: #ffffff;
+}
+
 .filter-header{
   align-items: flex-start;
   background-color: #336699;
+  color: #ffffff;
 }
 
 .radio-input{
@@ -156,10 +163,12 @@ h1 {
 }
 
 .filter-description{
-  margin: 20px;
+  margin: 30px;
+  color: #336699;
 }
 .filter-description h5{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 .img-size{
   height: 140px;
@@ -178,3 +187,53 @@ h1 {
   background-color: #ffffff;
 }
 
+.car-data-display{
+  flex: 3;
+}
+.car-list{
+  display: flex;
+}
+
+.booking-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.booking-box {
+  display: flex;
+  width: 70%; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;
+  background-color: #ffffff;
+  margin: 17%;
+}
+
+.car-image-container {
+  flex: 1.7;
+}
+
+.car-details {
+  flex: 1.4;
+  padding: 20px;
+}
+
+.car-image {
+  max-width: 500px;
+  height: 100%;
+}
+
+.payment-button {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-button:hover {
+  background-color: #0056b3;
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import listedcar from '../images/car-data.jpg'
 import scorpio from '../images/scorpio.jpg'
+import { Link } from 'react-router-dom'
+
 
 function CarSelection() {
   return (
@@ -42,7 +44,8 @@ function CarSelection() {
           <p><i>5 Seater-Automatic-Diesel</i></p>
           <hr/>
           <p>Rs.250/hr</p>
-          <button>Book car</button>
+          <div className='button-container'>
+          <button><Link to='/BookingScreen'>Book car</Link></button></div>
 
         </div>
         <br/>
@@ -52,6 +55,16 @@ function CarSelection() {
           <p><i>5 Seater-Manual-Petrol</i></p>
           <hr/>
           <p>Rs.300/hr</p>
+          <button>Book Car</button>
+        </div>
+        <br/>
+
+        <div className='car-list-right'>
+          <img className='img-size' src={scorpio} alt="comet"></img>
+          <h6>MG Comet</h6>
+          <p><i>4 Seater-Automatic-Electric</i></p>
+          <hr/>
+          <p>Rs.100/hr</p>
           <button>Book Car</button>
         </div>
       </div>

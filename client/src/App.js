@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
-import BookingCar from './pages/BookingCar'
+import BookingScreen from './pages/BookingScreen'
 import CarSelection from './pages/CarSelection';
 
 
@@ -19,7 +19,7 @@ function App() {
           <Route path='/' exact element={<Home/>} />
           <Route path='/login' exact element={<Login/>} />
           <Route path='/register' exact element={<Register/>} />
-          <Route path='/bookingcar' exact element={<BookingCar/>} />
+          <Route path='/bookingscreen' exact element={<BookingScreen/>} />
           <Route path='/carselection' exact element={<CarSelection/>} />
         </Routes>
 

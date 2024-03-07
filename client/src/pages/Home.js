@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import DefaultLayout from '../component/DefaultLayout'
 import carimage from '../images/new-virtus-01.webp'
-import './DefaultLayout.css'; // Import CSS file for styling 
+import './DefaultLayout.css'; 
+import {Link} from 'react-router-dom'
 function Home() {
   // State for selected city
   const [selectedCity, setSelectedCity] = useState('');
@@ -100,7 +101,7 @@ function Home() {
             </select>
             <input type="date" className="form-control" value={selectedFromDate} onChange={handleFromDateChange} /> 
             <input type="date" className="form-control" value={selectedToDate} onChange={handleToDateChange}/> 
-            <button className="btn btn-primary" onClick={handleBookSlot}>Get Car</button>
+            <button className="btn btn-primary" onClick={handleBookSlot}><Link to='/CarSelection'>Get Car</Link></button>
           </div>
         </div>
 
