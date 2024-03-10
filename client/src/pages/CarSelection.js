@@ -55,7 +55,8 @@ function CarSelection() {
           <p><i>5 Seater-Manual-Petrol</i></p>
           <hr/>
           <p>Rs.300/hr</p>
-          <button>Book Car</button>
+          <div className='button-container'>
+          <button>Book Car</button></div>
         </div>
         <br/>
 
@@ -65,7 +66,8 @@ function CarSelection() {
           <p><i>4 Seater-Automatic-Electric</i></p>
           <hr/>
           <p>Rs.100/hr</p>
-          <button>Book Car</button>
+          <div className='button-container'>
+          <button>Book Car</button></div>
         </div>
       </div>
     </div>

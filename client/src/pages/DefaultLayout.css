@@ -39,12 +39,12 @@
     border-right: 1px solid black;
 }
 
-/* .form-row button {
-    background-color: #ff8000;
+.form-row button {
+    background-color: #336699;
     color: white;
     border: none;
     cursor: pointer;
     padding: 0 20px;
     font-size: 14px;
-    margin-left: -5px;
-} */
+    margin-left: 10px;
+} 

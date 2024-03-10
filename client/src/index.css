@@ -117,6 +117,16 @@ h1 {
   margin-top: 10px;
 }
 
+button a{
+  color:white;
+  text-decoration: none;
+}
+
+.button-container a:hover{
+  color: white;
+}
+
+
 .footer{
   text-align: center;
   background-color: #383838;
@@ -154,7 +164,7 @@ h1 {
 .filter-header{
   align-items: flex-start;
   background-color: #336699;
-  color: #ffffff;
+  color:aqua;
 }
 
 .radio-input{
@@ -226,7 +236,7 @@ h1 {
 }
 
 .payment-button {
-  background-color: #007bff; 
+  background-color: #336699; 
   color: #fff; 
   border: none;
   padding: 10px 20px;
@@ -234,6 +244,5 @@ h1 {
   cursor: pointer;
 }
 
-.payment-button:hover {
-  background-color: #0056b3;
-}
+
+

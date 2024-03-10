@@ -101,7 +101,8 @@ function Home() {
             </select>
             <input type="date" className="form-control" value={selectedFromDate} onChange={handleFromDateChange} /> 
             <input type="date" className="form-control" value={selectedToDate} onChange={handleToDateChange}/> 
-            <button className="btn btn-primary" onClick={handleBookSlot}><Link to='/CarSelection'>Get Car</Link></button>
+            <div className='button-container'>
+            <Link to='/CarSelection'><button onClick={handleBookSlot}>Get Car</button></Link></div>
           </div>
         </div>
 
